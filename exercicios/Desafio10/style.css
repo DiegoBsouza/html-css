@@ -1,0 +1,94 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'idroid';
+    src: url(IDroid.otf) format('truetype');
+}
+
+header{
+    background-image: linear-gradient(to top, hsl(141, 88%, 13%), #208C46 );
+    height: 200px;
+    text-align: center;
+    color: white;
+    margin-top: -21px;
+    margin-bottom: opx;
+
+}
+nav {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    height: 1px;
+    margin-top: 65px;
+    padding-bottom: 0px;
+    }
+
+nav button {
+
+    background-color: #0c421f34;
+    color: white;
+    height: 30px;
+    width: 112px;
+    border: none;
+    transition: background-color 1s;
+    border-radius: 5px;
+}
+button:hover {
+    background-color: #208C46;
+
+}
+body{
+    background-color:#82D9A0;
+}
+.fonte {
+    font-family: 'idroid';
+    font-weight: normal; 
+    text-align: left;
+    background-image: linear-gradient(to right,  #208C46, white );
+    color: white;
+}
+main{
+    background-color: white;
+    padding-left: 50xp;
+    text-align: center;
+    margin-left: 175px;
+    margin-right: 175px;
+    margin-top: 0px;
+    border-radius: 15px;
+    box-shadow: 8px 4px 24px rgba(0, 0, 0, 0.411);
+
+}
+ul{
+    column-count: 2;
+    list-style-type: none;
+}
+#tabela{
+    background-color: white;
+    border-radius: 15px;
+
+}
+#tabela > h4 {
+    background-color: #208C46;
+    padding: 10 px;
+    border-color: black solid;
+    color: white;
+    border-radius: 20px;
+}
+#xisto{
+    background-color: #82D9A0;
+    margin: 20px;
+    border-radius: 20px;
+}
+
+footer{
+    background-color: #208C46;
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+    height: 20px;
+    border-radius: 20px;
+    color: white;
+}
+#titulo{
+    padding-top: 25px;
+    margin-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;

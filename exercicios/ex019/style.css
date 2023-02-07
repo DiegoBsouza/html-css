@@ -1,0 +1,24 @@
+@charset "UTF-8";
+
+body    {
+    background-image: linear-gradient(to right, lightblue, lightgreen );
+
+}
+h1{
+    color: rgb(50, 144, 175);  
+}
+h1#principal {
+    text-align: center;
+    color: white;
+    background-color: rgb(96, 187, 96);
+}
+h2{
+    color: rgb(96, 187, 96);
+}
+.intermediario{
+    color: rgb(187, 181, 96);
+}
+
+.avancado{
+    color: rgb(187, 102, 96);
+}
